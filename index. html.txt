@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download NearConnect</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0061A4, #00687A);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .container {
+            max-width: 600px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        }
+        h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        p { font-size: 1.1rem; margin-bottom: 30px; color: #D0E4FF; }
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 35px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: background 0.3s, transform 0.2s;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        .btn:hover { background-color: #45a049; transform: scale(1.05); }
+        .note { margin-top: 20px; font-size: 0.9rem; color: #ffcccb; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>NearConnect</h1>
+        <p>Connect with people around you. Secure, offline, peer-to-peer messaging and file sharing without the internet.</p>
+        
+        <!-- Links directly to the APK file stored in the same repository -->
+        <a href="nearconnect.apk" class="btn" download>Download APK (v1.0)</a>
+        
+        <div class="note">
+            ⚠️ <strong>Note:</strong> When installing, your phone may show a "Play Protect / Unknown Sources" warning. Tap <em>"Install Anyway"</em> to proceed.
+        </div>
+    </div>
+
+</body>
+</html>
